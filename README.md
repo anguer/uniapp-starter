@@ -1,4 +1,4 @@
-## Uniapp Starter
+## UniApp Starter
 
 ### Get Started
 
@@ -14,7 +14,16 @@ pnpm dev:h5
 pnpm dev:mp-weixin
 ```
 
-## Git Contribution submission specification
+### Tech Stack
+- [UniApp](https://uniapp.dcloud.net.cn)
+- [Vite](https://vitejs.dev)
+- [Vue3](https://vuejs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Pinia](https://pinia.vuejs.org)
+- [Tailwindcss](https://tailwindcss.com)
+- [CVA](https://cva.style/)
+
+### Git Contribution submission specification
 
 > reference [GCM](https://www.yuque.com/arvinxx-fe/workflow/gcm-v2)
 
@@ -32,6 +41,6 @@ pnpm dev:mp-weixin
 - :wrench: `chore:` Work with configuration or other stuff
 
 
-## Change Log
+### Change Log
 
 [CHANGELOG](./CHANGELOG.md)

@@ -7,6 +7,8 @@
     "vite",
     "vue3",
     "typescript",
+    "tailwindcss",
+    "pinia",
     "next"
   ],
   "scripts": {
