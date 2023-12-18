@@ -1,6 +1,7 @@
 ## UniApp Starter
 
 ### Introduction
+
 The [UniApp Starter](https://github.com/anguer/uniapp-starter) is a starter template for Vite, Vue3, Pinia, Tailwindcss and TypeScript with UniApp.
 
 ### Get Started
@@ -20,6 +21,7 @@ pnpm dev:mp-weixin
 ```
 
 ### Tech Stack
+
 - [UniApp](https://uniapp.dcloud.net.cn)
 - [Vite](https://vitejs.dev)
 - [Vue3](https://vuejs.org)
@@ -49,3 +51,7 @@ pnpm dev:mp-weixin
 ### Change Log
 
 [CHANGELOG](./CHANGELOG.md)
+
+### License
+
+The [MIT license](./LICENSE).
