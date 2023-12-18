@@ -1,0 +1,42 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/home",
+			"style": {
+				"navigationBarTitleText": "Home"
+			}
+		},
+		{
+			"path": "pages/index/me",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+  ],
+	"globalStyle": {
+    "navigationBarTitleText": "uniapp-starter",
+		"navigationBarTextStyle": "@navTxtStyle",
+		"navigationBarBackgroundColor": "@navBgColor",
+		"backgroundColor": "@bgColor"
+	},
+  "tabBar": {
+    "color": "@tabFontColor",
+    "selectedColor": "@tabSelectedColor",
+    "borderStyle": "@tabBorderStyle",
+    "backgroundColor": "@bgColor",
+    "list": [
+      {
+        "pagePath": "pages/index/home",
+        "iconPath": "@iconHome",
+        "selectedIconPath": "@iconHomeSelected",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/index/me",
+        "iconPath": "@iconMe",
+        "selectedIconPath": "@iconMeSelected",
+        "text": "Me"
+      }
+    ]
+  }
+}
