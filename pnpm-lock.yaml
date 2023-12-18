@@ -53,9 +53,6 @@ dependencies:
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
-  crypto-js:
-    specifier: ^4.2.0
-    version: 4.2.0
   lodash-es:
     specifier: ^4.17.21
     version: 4.17.21
@@ -97,12 +94,6 @@ devDependencies:
   '@iconify-json/lucide':
     specifier: ^1.1.144
     version: 1.1.144
-  '@types/crypto-js':
-    specifier: ^4.2.1
-    version: 4.2.1
-  '@types/fs-extra':
-    specifier: ^11.0.4
-    version: 11.0.4
   '@types/lodash-es':
     specifier: ^4.17.12
     version: 4.17.12
@@ -124,9 +115,6 @@ devDependencies:
   autoprefixer:
     specifier: ^10.4.16
     version: 10.4.16(postcss@8.4.32)
-  chokidar:
-    specifier: ^3.5.3
-    version: 3.5.3
   commitlint:
     specifier: ^18
     version: 18.4.3(typescript@4.9.5)
@@ -145,9 +133,6 @@ devDependencies:
   eslint-plugin-vue:
     specifier: ^9.19.2
     version: 9.19.2(eslint@8.55.0)
-  fs-extra:
-    specifier: ^11.2.0
-    version: 11.2.0
   husky:
     specifier: ^8
     version: 8.0.3
@@ -3971,19 +3956,8 @@ packages:
       '@babel/types': 7.23.5
     dev: true
 
-  /@types/crypto-js@4.2.1:
-    resolution: {integrity: sha512-FSPGd9+OcSok3RsM0UZ/9fcvMOXJ1ENE/ZbLfOPlBWj7BgXtEAM8VYfTtT760GiLbQIMoVozwVuisjvsVwqYWw==}
-    dev: true
-
   /@types/estree@1.0.5:
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
-
-  /@types/fs-extra@11.0.4:
-    resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
-    dependencies:
-      '@types/jsonfile': 6.1.4
-      '@types/node': 20.10.4
-    dev: true
 
   /@types/graceful-fs@4.1.9:
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
@@ -4009,12 +3983,6 @@ packages:
 
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
-    dev: true
-
-  /@types/jsonfile@6.1.4:
-    resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
-    dependencies:
-      '@types/node': 20.10.4
     dev: true
 
   /@types/lodash-es@4.17.12:
@@ -5440,10 +5408,6 @@ packages:
   /crypt@0.0.2:
     resolution: {integrity: sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==}
     dev: true
-
-  /crypto-js@4.2.0:
-    resolution: {integrity: sha512-KALDyEYgpY+Rlob/iriUtjV6d5Eq+Y191A5g4UqLAi8CyGP9N1+FdVbkc1SxKc2r4YAYqG8JzO2KGL+AizD70Q==}
-    dev: false
 
   /crypto-random-string@4.0.0:
     resolution: {integrity: sha512-x8dy3RnvYdlUcPOjkEHqozhiwzKNSq7GcPuXFbnyMOCHxX8V3OgIg/pYuabl2sbUPfIJaeAQB7PMOK8DFIdoRA==}
