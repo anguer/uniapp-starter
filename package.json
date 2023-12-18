@@ -1,6 +1,11 @@
 {
   "name": "uniapp-starter",
   "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Anguer",
+    "url": "https://github.com/anguer"
+  },
   "keywords": [
     "uniapp",
     "starter",

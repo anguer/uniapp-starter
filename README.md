@@ -1,13 +1,18 @@
 ## UniApp Starter
 
+### Introduction
+The [UniApp Starter](https://github.com/anguer/uniapp-starter) is a starter template for Vite, Vue3, Pinia, Tailwindcss and TypeScript with UniApp.
+
 ### Get Started
 
-Install dependencies
+1. Install dependencies using pnpm:
+
 ```bash
 pnpm install
 ```
 
-Run
+2. Start the development server:
+
 ```bash
 pnpm dev:h5
 # or
