@@ -1,7 +1,14 @@
 {
   "name": "uniapp-starter",
-  "version": "0.0.0",
-  "keywords": ["uniapp", "starter", "vite", "vue3", "typescript", "next"],
+  "version": "0.0.1",
+  "keywords": [
+    "uniapp",
+    "starter",
+    "vite",
+    "vue3",
+    "typescript",
+    "next"
+  ],
   "scripts": {
     "dev:app": "uni -p app",
     "dev:custom": "uni -p",
